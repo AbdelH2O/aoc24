@@ -3,7 +3,6 @@ open Str;;
 let () = 
   let count = ref 0 in
   let inp = open_in "input3.txt" in
-  (* let line = input_line inp in *)
   let entire_pattern = Str.regexp "mul(\\([0-9]+\\),\\([0-9]+\\))" in
 
   let process num1 num2 = (int_of_string num1) * (int_of_string num2) in
