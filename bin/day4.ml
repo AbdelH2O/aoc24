@@ -1,5 +1,5 @@
 let () =
-  let inp = open_in "input4.txt" in
+  let inp = open_in "inputs/input4.txt" in
   let grid = Dynarray.make 0 (Array.make 0 '.') in
   let sequance = "XMAS" |> String.to_seq |> Array.of_seq in
   let directions = [ 1, 0; 1, 1; 0, 1; -1, 1; -1, 0; -1, -1; 0, -1; 1, -1 ] in

@@ -2,7 +2,7 @@ open Str
 
 let () =
   let count = ref 0 in
-  let inp = open_in "input3.txt" in
+  let inp = open_in "inputs/input3.txt" in
   let entire_pattern = Str.regexp "mul(\\([0-9]+\\),\\([0-9]+\\))" in
   let process num1 num2 = int_of_string num1 * int_of_string num2 in
   let rec find_matches text pos count =

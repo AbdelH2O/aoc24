@@ -21,7 +21,7 @@ let rec check polarity elements =
 
 let () =
   let safe = ref 0 in
-  let inp = open_in "input2.txt" in
+  let inp = open_in "inputs/input2.txt" in
   try
     while true do
       let elements =

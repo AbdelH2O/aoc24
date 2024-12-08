@@ -2,7 +2,7 @@ open Str
 
 let () =
   let count = ref 0 in
-  let inp = open_in "input3.txt" in
+  let inp = open_in "inputs/input3.txt" in
   let entire_pattern = Str.regexp "mul(\\([0-9]+\\),\\([0-9]+\\))" in
   let does = Str.regexp "do\\(n't\\)?()" in
   let dont = "don't()" in

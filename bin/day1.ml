@@ -11,7 +11,7 @@ let rec diff a b =
 let () =
   let a = ref [] in
   let b = ref [] in
-  let inp = open_in "input1.txt" in
+  let inp = open_in "inputs/input1.txt" in
   try
     while true do
       let a_and_b =

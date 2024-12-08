@@ -20,7 +20,7 @@ let () =
   let a = ref [] in
   let b = ref [] in
   let my_hash = Hashtbl.create 10000 in
-  let inp = open_in "input1.txt" in
+  let inp = open_in "inputs/input1.txt" in
   try
     while true do
       let a_and_b =

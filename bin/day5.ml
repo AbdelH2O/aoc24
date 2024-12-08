@@ -1,5 +1,5 @@
 let () =
-  let inp = open_in "input5.txt" in
+  let inp = open_in "inputs/input5.txt" in
   let dependencies = Hashtbl.create 1000000 in
   let count = ref 0 in
   let add_dep x y =
